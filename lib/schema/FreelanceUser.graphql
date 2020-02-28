@@ -1,0 +1,13 @@
+type FreelanceUser {
+  _id: ID
+  nid: String # Used to generate "Charge accounts"
+  name: String
+  nick: String
+}
+
+input FreelanceUserInput {
+  nid: String!
+  name: String!
+  nick: String!
+  password: String!
+}

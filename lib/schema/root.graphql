@@ -1,0 +1,9 @@
+# import * from 'FreelanceUser.graphql'
+
+type Query {
+  loginFreelanceUser(nick: String!, password: String!): String
+}
+
+type Mutation {
+  createFreelanceUser(data: FreelanceUserInput!): FreelanceUser
+}
